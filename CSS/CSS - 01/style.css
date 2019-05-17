@@ -1,0 +1,63 @@
+:root {
+  --color: pink;
+}
+/* body {
+  background: var(--color);
+  color: purple;
+} */
+.title {
+  background: black;
+  color: var(--color);
+}
+.description {
+  background: green;
+  color: blue;
+}
+.p1 {
+  color: red;
+}
+.title,
+.description {
+  color: aqua;
+}
+
+selector hermano siguiente
+/* .title-1 + .subtitle {
+  color: azure;
+} */
+
+selector hermanos siguientes
+/* .hermano-mayor ~ .hermano {
+  background: yellowgreen;
+} */
+
+selector hermanos siguientes
+/* .check:checked ~ .enabled {
+  display: block;
+}
+.check:checked ~ .disabled {
+  display: none;
+} */
+
+selector de atributo
+/* [type="email"] {
+  border: 1px solid blue;
+}
+[type="submit"] {
+  background: red;
+  color: white;
+  border: none;
+}
+[required] {
+  border: 2px solid red;
+  margin: 0.5em;
+} */
+
+selector de atributo comienza con
+/* a {
+  color: blue;
+}
+[href^="/"],
+[href^="https://ed.team"] {
+  color: red;
+} */
